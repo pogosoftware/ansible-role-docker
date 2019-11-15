@@ -1,0 +1,17 @@
+galaxy_info:
+  role_name: docker
+  author: Przemysław Pogorzelec
+  description: This role will install and configure docker.
+  company: Pogosoftware
+
+  issue_tracker_url: https://github.com/pogosoftware/ansible-role-docker/issues
+  license: MIT
+  min_ansible_version: 2.4
+
+  # https://galaxy.ansible.com/api/v1/platforms/
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags: ['docker', 'container', 'pogosoftware']
